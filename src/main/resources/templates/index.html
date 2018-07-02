@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Library Management System</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/shop-item.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <div class="container">
+
+        <a class="navbar-brand" href="#">Library Management System</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+
+                    <a class="nav-link" href="#">Home
+
+                        <span class="sr-only">(current)</span>
+
+                    </a>
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" th:href="@{/addbook}">Add a book</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" th:href="@{/listbooks}">List books</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#">Borrow a book</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="#">Return a book</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- Page Content -->
+
+<div class="container">
+
+
+
+    <div class="row">
+
+
+
+        <div class="col-lg-3">
+
+            <h1 class="my-4">Montgomery County Library</h1>
+
+        </div>
+
+        <!-- /.col-lg-3 -->
+
+
+
+        <div class="col-lg-9">
+
+
+
+            <div class="card mt-4">
+
+                <img class="card-img-top img-fluid" src="/img/library.jpg" alt="">
+
+                <div class="card-body">
+
+                    <h3 class="card-title">Reviews</h3>
+
+                    <h4>Shop knowledge in this versatile library</h4>
+
+                    <p class="card-text">“Spacious two floors, large glass windows, starry night themed, beautiful quotes embellished on the grand lobby, nice furniture,
+                        friendly staff, ample space to read and study, lots and lots of books.” </p>
+
+                    <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+
+                    4.0 stars
+
+                </div>
+
+            </div>
+
+            <!-- /.card -->
+
+
+
+            <div class="card card-outline-secondary my-4">
+
+                <div class="card-header">
+
+                    More Reviews
+
+                </div>
+
+                <div class="card-body">
+
+                    <p>Accessible, well-stocked with books and audios and visuals and more, staffed with knowledgeable and mostly friendly folks...
+                        space to read and write and research and think and be... rooms for meetings and options for events and programs... good hours and lots of online options and support...
+                        clean restrooms and right in the middle of downtown Rockville - so it's easy to spend a whole day in the area.</p>
+
+                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+
+                    <hr>
+
+                    <p>Beautiful spacious library. Great location. Restaurants and splash pad right outside. Wish they had a discovery room or more
+                        toys available in the kids' section. But I also understand that the kids focus on reading books more when there aren't toys
+                        to distract them. And that's the point of a library isn't it? Cute kid sized couches that my kids love to sit and read on.
+                        It's got everything we need so can't complain.</p>
+
+                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+
+                    <hr>
+
+                    <p>iI go here regularly to checkout books. First off, their children's section is ENORMOUS. Even bigger than the Davis Library's
+                        (at time of writing, is closed for renovation). The nonfiction section is great, the adult fiction section is great, and it's really,
+                        really big. There's a wide choice of books for all of your bookish needs, a wide selection of DVD's for your DVD-ly needs, et cetera.
+                        It's a great place to study. It's also really, really quiet in here. No screaming toddlers.
+                        Highly recommend to all you bookworms out there.</p>
+
+                    <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+
+                    <hr>
+
+                    <a href="#" class="btn btn-success">Leave a Review</a>
+
+                </div>
+
+            </div>
+
+            <!-- /.card -->
+
+
+
+        </div>
+
+        <!-- /.col-lg-9 -->
+
+
+
+    </div>
+
+
+
+</div>
+
+<!-- /.container -->
+
+
+
+<!-- Footer -->
+
+<footer class="py-5 bg-dark">
+
+    <div class="container">
+
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+
+    </div>
+
+    <!-- /.container -->
+
+</footer>
+
+
+
+<!-- Bootstrap core JavaScript -->
+
+<script src="vendor/jquery/jquery.min.js"></script>
+
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+
+
+</html>
